@@ -1,0 +1,21 @@
+Notes for Onion
+
+ruled downloaded by pulled pork:
+/etc/nsm/rules/downloaded.rules
+
+Local rules:
+/etc/nsm/rules/local.rules
+
+PulledPork modify the downloaded rules:
+/etc/nsm/pulledpork/
+
+Rules updated every morning, manually update with:
+sudo rule-update
+
+sensors cna be tuned by modifying:
+/etc/nsm/name-of-sensor/
+
+ - make the bridge persistent
+ - start making scripts for rule extraction
+
+

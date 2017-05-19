@@ -1,0 +1,94 @@
+
+Xprobe2 v.0.3 Copyright (c) 2002-2005 fyodor@o0o.nu, ofir@sys-security.com, meder@o0o.nu
+
+[+] Target is 192.168.20.2
+[+] Loading modules.
+[+] Following modules are loaded:
+[x] [1] ping:icmp_ping  -  ICMP echo discovery module
+[x] [2] ping:tcp_ping  -  TCP-based ping discovery module
+[x] [3] ping:udp_ping  -  UDP-based ping discovery module
+[x] [4] infogather:ttl_calc  -  TCP and UDP based TTL distance calculation
+[x] [5] infogather:portscan  -  TCP and UDP PortScanner
+[x] [6] fingerprint:icmp_echo  -  ICMP Echo request fingerprinting module
+[x] [7] fingerprint:icmp_tstamp  -  ICMP Timestamp request fingerprinting module
+[x] [8] fingerprint:icmp_amask  -  ICMP Address mask request fingerprinting module
+[x] [9] fingerprint:icmp_port_unreach  -  ICMP port unreachable fingerprinting module
+[x] [10] fingerprint:tcp_hshake  -  TCP Handshake fingerprinting module
+[x] [11] fingerprint:tcp_rst  -  TCP RST fingerprinting module
+[x] [12] fingerprint:smb  -  SMB fingerprinting module
+[x] [13] fingerprint:snmp  -  SNMPv2c fingerprinting module
+[+] 13 modules registered
+[+] Initializing scan engine
+[+] Running scan engine
+[-] ping:tcp_ping module: no closed/open TCP ports known on 192.168.20.2. Module test failed
+[-] ping:udp_ping module: no closed/open UDP ports known on 192.168.20.2. Module test failed
+[-] No distance calculation. 192.168.20.2 appears to be dead or no ports known
+[+] Host: 192.168.20.2 is up (Guess probability: 50%)
+[+] Target: 192.168.20.2 is alive. Round-Trip Time: 0.49362 sec
+[+] Selected safe Round-Trip Time value is: 0.98724 sec
+
+Xprobe2 v.0.3 Copyright (c) 2002-2005 fyodor@o0o.nu, ofir@sys-security.com, meder@o0o.nu
+
+[+] Target is 192.168.20.2
+[+] Loading modules.
+[+] Following modules are loaded:
+[x] [1] ping:icmp_ping  -  ICMP echo discovery module
+[x] [2] ping:tcp_ping  -  TCP-based ping discovery module
+[x] [3] ping:udp_ping  -  UDP-based ping discovery module
+[x] [4] infogather:ttl_calc  -  TCP and UDP based TTL distance calculation
+[x] [5] infogather:portscan  -  TCP and UDP PortScanner
+[x] [6] fingerprint:icmp_echo  -  ICMP Echo request fingerprinting module
+[x] [7] fingerprint:icmp_tstamp  -  ICMP Timestamp request fingerprinting module
+[x] [8] fingerprint:icmp_amask  -  ICMP Address mask request fingerprinting module
+[x] [9] fingerprint:icmp_port_unreach  -  ICMP port unreachable fingerprinting module
+[x] [10] fingerprint:tcp_hshake  -  TCP Handshake fingerprinting module
+[x] [11] fingerprint:tcp_rst  -  TCP RST fingerprinting module
+[x] [12] fingerprint:smb  -  SMB fingerprinting module
+[x] [13] fingerprint:snmp  -  SNMPv2c fingerprinting module
+[+] 13 modules registered
+[+] Initializing scan engine
+[+] Running scan engine
+[-] ping:tcp_ping module: no closed/open TCP ports known on 192.168.20.2. Module test failed
+[-] ping:udp_ping module: no closed/open UDP ports known on 192.168.20.2. Module test failed
+[-] No distance calculation. 192.168.20.2 appears to be dead or no ports known
+[+] Host: 192.168.20.2 is up (Guess probability: 50%)
+[+] Target: 192.168.20.2 is alive. Round-Trip Time: 0.49362 sec
+[+] Selected safe Round-Trip Time value is: 0.98724 sec
+
+[+] Portscan results for 192.168.20.2:
+[+]  Stats:
+[+]   TCP: 12 - open, 988 - closed, 0 - filtered
+[+]   UDP: 0 - open, 0 - closed, 0 - filtered
+[+]   Portscan took 16.50 seconds.
+[+]  Details:
+[+]   Proto	Port Num.	State		Serv. Name
+[+]   TCP	21		open		ftp	
+[+]   TCP	22		open		ssh	
+[+]   TCP	23		open		telnet	
+[+]   TCP	25		open		smtp	
+[+]   TCP	53		open		domain	
+[+]   TCP	80		open		http	
+[+]   TCP	111		open		sunrpc	
+[+]   TCP	139		open		netbios-ssn	
+[+]   TCP	445		open		microsoft-ds	
+[+]   TCP	512		open		exec	
+[+]   TCP	513		open		login	
+[+]   TCP	514		open		shell	
+[+]  Other TCP ports are in closed state.
+[+] SMB [Native OS: Unix] [Native Lanman: Samba 3.0.20-Debian] [Domain: WORKGROUP]
+[+] SMB [Called name: METASPLOITABLE ] [MAC: 00:00:00:00:00:00]
+[+] Primary guess:
+[+] Host 192.168.20.2 Running OS: "Linux Kernel 2.6.0" (Guess probability: 96%)
+[+] Other guesses:
+[+] Host 192.168.20.2 Running OS: "Linux Kernel 2.6.10" (Guess probability: 96%)
+[+] Host 192.168.20.2 Running OS: "Linux Kernel 2.6.2" (Guess probability: 96%)
+[+] Host 192.168.20.2 Running OS: "Linux Kernel 2.6.8" (Guess probability: 96%)
+[+] Host 192.168.20.2 Running OS: "Linux Kernel 2.6.4" (Guess probability: 96%)
+[+] Host 192.168.20.2 Running OS: "Linux Kernel 2.6.6" (Guess probability: 96%)
+[+] Host 192.168.20.2 Running OS: "Linux Kernel 2.6.6" (Guess probability: 96%)
+[+] Host 192.168.20.2 Running OS: "Linux Kernel 2.6.4" (Guess probability: 96%)
+[+] Host 192.168.20.2 Running OS: "Linux Kernel 2.6.8" (Guess probability: 96%)
+[+] Host 192.168.20.2 Running OS: "Linux Kernel 2.6.2" (Guess probability: 96%)
+[+] Cleaning up scan engine
+[+] Modules deinitialized
+[+] Execution completed.

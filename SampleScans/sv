@@ -1,0 +1,10 @@
+# Nmap 7.01 scan initiated Tue Sep 13 11:29:34 2016 as: nmap -osv 211.154.188.131
+Nmap scan report for 211.154.188.131
+Host is up (0.0038s latency).
+Not shown: 954 closed ports, 43 filtered ports
+PORT    STATE SERVICE
+1/tcp   open  tcpmux
+22/tcp  open  ssh
+554/tcp open  rtsp
+
+# Nmap done at Tue Sep 13 11:53:25 2016 -- 1 IP address (1 host up) scanned in 1430.85 seconds
